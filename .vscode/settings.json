@@ -1,0 +1,27 @@
+{
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "files.associations": {
+        "*.cc": "cpp",
+        "*.cpp": "cpp",
+        "*.h": "cpp",
+        "*.hpp": "cpp"
+    },
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.compilerPath": "g++.exe",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4, UseTab: Never, ColumnLimit: 80 }",
+    "terminal.integrated.shell.windows": "powershell.exe",
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -g -Wall -Wextra -std=c++17 -O2 $fileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true
+}
